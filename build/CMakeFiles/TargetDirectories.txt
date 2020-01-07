@@ -1,0 +1,7 @@
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/rebuild_cache.dir
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/edit_cache.dir
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/arrow_gpu_test.dir
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/arrow_test.dir
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/device_to_device_copy.dir
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/arrow_serialization.dir
+/home/wamsi/raidStorage/myarrow/build/CMakeFiles/device_to_device_cuda.dir
