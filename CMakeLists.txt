@@ -21,6 +21,8 @@ add_executable(arrow_gpu_test arrow_gpu_test.cpp)
 # add_executable(device_to_device_copy device_to_device_copy.cpp)
 add_executable(device_to_device_cuda device_to_device_cuda.cu)
 
+add_executable(dict_memo dict_memo.cpp)
+
 target_link_libraries(arrow_test ${Arrow_LIBRARIES})
 # target_link_libraries(arrow_buffer ${Arrow_LIBRARIES})
 # target_link_libraries(arrow_cuda_test ${Arrow_LIBRARIES})
@@ -28,3 +30,5 @@ target_link_libraries(arrow_serialization ${Arrow_LIBRARIES})
 target_link_libraries(arrow_gpu_test ${Arrow_LIBRARIES} ${Arrow_GPU_LIBRARIES})
 # target_link_libraries(device_to_device_copy ${CUDA_LIBRARIES} ${Arrow_LIBRARIES} ${Arrow_GPU_LIBRARIES})
 target_link_libraries(device_to_device_cuda ${CUDA_LIBRARIES} ${Arrow_LIBRARIES} ${Arrow_GPU_LIBRARIES})
+
+target_link_libraries(dict_memo ${Arrow_LIBRARIES})
